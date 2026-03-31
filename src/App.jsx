@@ -238,6 +238,9 @@ function App() {
               {language === "en" ? "ES 🇪🇸" : "EN 🇺🇸"}
             </button>
           </div>
+          <button className="lang-toggle-mobile" onClick={toggleLanguage}>
+            {language === "en" ? "🇪🇸" : "🇺🇸"}
+          </button>
         </div>
       </nav>
 

@@ -144,6 +144,26 @@ body {
   transform: translateY(-2px);
 }
 
+.lang-toggle-mobile {
+  display: none;
+  background: var(--bg-cream);
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: var(--transition);
+  align-items: center;
+  justify-content: center;
+}
+
+.lang-toggle-mobile:hover {
+  background: var(--primary);
+  transform: scale(1.1);
+}
+
 /* Hero Section */
 .hero {
   min-height: 100vh;
@@ -1052,6 +1072,10 @@ body {
 @media (max-width: 768px) {
   .nav-links {
     display: none;
+  }
+
+  .lang-toggle-mobile {
+    display: flex;
   }
 
   .hero-title {
